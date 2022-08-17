@@ -9,7 +9,7 @@ Run:
 3-npm db:setup to run the seed
 
 Client side:
-Please go to the directory :/client
+Please go to the directory :/client/blogging-app
 
 Run:
  ng serve

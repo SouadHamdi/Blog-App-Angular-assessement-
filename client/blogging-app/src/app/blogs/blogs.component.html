@@ -1,11 +1,11 @@
 <div class="feed" >
     <ul *ngFor="let blog of blogs">
-      <li class="feed-list-item" [ngStyle]="{ 'background-color': blog.upvote>blog.downvote ? 'green' : 'red' }">
+      <li class="feed-list-item" [ngStyle]="{ 'border-color': blog.upvote>blog.downvote ? 'green' : 'red' }">
         <div class="feed-list-item-title" >{{blog.title}}</div>
         <div class="feed-list-item-byline"><span class="feed-list-item-byline-author">{{blog.author}}</span></div>
        
         <span class="feed-list-item-lede">{{blog.content.split('.')[0]}}... </span>
-        <a routerLink="/detail/{{blog._id}}">more details</a>
+        <a routerLink="/detail/{{blog._id}}">continue reading</a>
 
 
         <br/> <button (click)="upvote(blog._id,blog.upvote)" style="margin:10px ;background-color: green;">up vote</button> 

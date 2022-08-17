@@ -3,9 +3,9 @@
 body {
   font-family: 'PT Serif', sans-serif;
   margin: 0px;
-  color: #2C3E50;
+  color: #ccdd0e; 
   background-color: #aeb6b8;
-  font-size: 1.1em;
+  font-size: 1.4em;
 }
 
 h2 {
@@ -52,29 +52,9 @@ h2 {
   font-weight: bolder;
 }
 
-button {
-  cursor: pointer;
-  border: none;
-  border-radius: 3px;
-  font-family: 'PT Serif', sans-serif;
-  color: #ECF0F1;
-  background-color: #E74C3C;
-}
 
-.post {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 800px;
-  font-size: 1.3em;
-  line-height: 1.5em;
-  background-color: white;
-  padding: 5px 20px 5px 20px;
-}
 
-.post-title {
-  font-family: 'Francois One';
-  line-height: 1.5em;
-}
+
 
 .post-image {
   max-width: 100%;
@@ -91,7 +71,7 @@ button {
 }
 
 .create h2 {
-  border-bottom: 1px solid #777777;
+  border-bottom: 1px solid #d0cccc;
   width: 90%;
   font-family: 'Francois One';
 }
@@ -121,10 +101,10 @@ button {
 .create-body-textarea {
   width: 80%;
   font-size: .9em;
-  display: block;
+  display:flex;
   height: 400px;
   border: none;
-  padding: 5px;
+  padding: 10px;
   resize: none;
 }
 
@@ -134,72 +114,7 @@ button {
   height: 30px;
 }
 
-.comment-input {
-  width: 60%;
-  font-size: .9em;
-  margin-top: 15px;
-  border: none;
-  padding: 5px;
-  resize: none;
-}
 
-.comment-submit {
-  margin-left: 15px;
-  font-size: .9em;
-  height: 30px;
-  transform: translateY(-50%);
-}
-
-.comment-entry {
-  margin-top: 5px;
-  padding: 10px;
-  border: 1px solid #3498DB;
-  list-style: none;
-  width: 70%;
-  font-size: .9em;
-}
-
-.comment-entry:hover {
-  background-color: rgba(52, 152, 219, 0.17);
-}
-
-.post-list-entry {
-  list-style: none;
-  border: 1px solid #3498DB;
-  margin-bottom: 20px;
-  padding: 10px;
-  width: 75%;
-}
-
-.post-list-entry:hover {
-  cursor: pointer;
-  background-color: rgba(52, 152, 219, 0.17);
-}
-
-.post-list-entry-title {
-  font-weight: bold;
-  font-size: 1.2em;
-  font-family: 'Francois One';
-}
-
-.post-list-entry-stats {
-  font-size: .8em;
-}
-
-.stats-list-item-views {
-  font-weight: bold;
-}
-
-.post-stats {
-  font-size: .8em;
-  cursor: pointer;
-  width: 75px;
-  display: inline;
-}
-
-.post-stats-comments {
-  margin-left: 20px;
-}
 
 .logo {
   font-weight: bold;
@@ -207,7 +122,7 @@ button {
   margin-right: auto;
   margin-left: 10px;
   font-family: 'Francois One';
-  color: #ffffff;
+  color: #e9ec27;
 }
 
 .main {
@@ -216,9 +131,9 @@ button {
 }
 
 .nav {
-  background-color: #3498DB;
+  background-color: #0e1af3;
   margin: 0px;
-  padding: 10px;
+  padding: 50px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
